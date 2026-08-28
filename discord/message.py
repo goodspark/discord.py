@@ -208,13 +208,12 @@ class Attachment(Hashable):
         .. versionadded:: 2.5
 
     placeholder: Optional[:class:`str`]
-        A `thumbhash <https://evanw.github.io/thumbhash/>`_, of the
-        attachment, if it's an image or video. Otherwise, ``None``.
+        A `thumbhash <https://evanw.github.io/thumbhash/>` of the
+        attachment. Only applicable to images and videos.
 
         .. versionadded:: 2.8
     placeholder_version: Optional[:class:`int`]
-        The version of the placeholder, if the attachment is an image
-        or video. Otherwise, ``None``.
+        The version of the placeholder. Only applicable to images and videos.
 
         .. versionadded:: 2.8
     """
